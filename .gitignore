@@ -22,7 +22,7 @@ wheels/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
+
 
 # Virtual Environment
 venv/
