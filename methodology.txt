@@ -133,4 +133,4 @@ DeFi Wallet Credit Scoring System - Methodology
     - Memory optimization for big data
     - Performance profiling and optimization
 
-Note: This methodology document serves as a reference for understanding the process of converting the Jupyter notebook into a structured Python project. It can be used as a guide for similar future conversions or for maintaining the current codebase. 
+
