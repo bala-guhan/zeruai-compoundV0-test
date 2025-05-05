@@ -1,0 +1,18 @@
+You are provided with raw, transaction-level data from the Compound V2 protocol. 
+Each record corresponds to a wallet interacting with the protocol through actions 
+such as deposit, borrow, repay, withdraw, and liquidation.
+
+Your task is to develop a machine learning model that assigns a credit score between 
+0 and 100 to each wallet, based solely on historical transaction behavior. Higher scores indicate 
+reliable and responsible usage; lower scores reflect risky, bot-like, or exploitative behavior.
+
+This is a self-driven, end-to-end modeling task. You are not provided with labels, predefined features, or a target column. 
+Your responsibilities include:
+
+Defining criteria for "good" and "bad" wallet behavior
+Engineering features from raw transaction logs
+Choosing and justifying your modeling approach (e.g., clustering, rule-based scoring, supervised learning)
+Designing a credit scoring system that reflects behavioral quality and protocol health
+
+
+dataset structure : dict_keys(['deposits', 'withdraws', 'borrows', 'repays', 'liquidates'])
